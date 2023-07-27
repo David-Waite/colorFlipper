@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colour Flipper || Simple</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><h1 class="navItem title">Colour Flipper</h1></li>
+        <li>
+          <a class="navItem" href="index.html">Simple</a>
+        </li>
+        <li>
+          <a class="navItem blue" href="hex.html">Hex</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main">
+      <div class="bgcolour">
+        <h2>
+          Background Colour :
+          <span id="backgroundColorText" class="blue"> #FFF </span>
+        </h2>
+      </div>
+
+      <button onclick="changeColorHex()" id="btn">CLICK ME</button>
+    </main>
+  </body>
+  <script src="js/index.js"></script>
+</html>
